@@ -42,8 +42,11 @@ boxplot(VitC~Cult,data=veggy)
   It appears that c52 gives more Vitamin C than cultivation method c39 shown on the plot above.
 
 ### Numerical Descriptive Results
-
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
+```{r}
+favstats(VitC~Cult,data=veggy)
+```
+  The average of cultivation method c39 is 51.5 and the average of cultivation method c52 is 64.4. 
 
 ## Inferential Results
 
